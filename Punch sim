@@ -103,3 +103,10 @@ local Button = MainTab:CreateButton({
    end,
 })
  
+
+local Button = MainTab:CreateButton({
+   Name = "Simple Autofarm",
+   Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Smartotok/ifk-how-to-save-it-/refs/heads/main/simple%20autofarm'))()
+   end,
+})
